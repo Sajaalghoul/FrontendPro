@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="refresh" content="50">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="description" content="lab in alazhar">
+	<meta name="author" content="saja">
+	<title>add experience</title>
+	<link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+	<ul>
+	 	<li><a  href="home.html">Personal Information</a></li>
+  		<li><a  href="CourseInfo.html">Course Information</a></li>
+  		<li><a  href="ExperienceInfo.html">Experiences Information</a></li>
+  		<li><a href="addcourse.html">Add Course</a></li>
+  		<li><a class="active" href="addexperience.html">Add Experience</a></li>
+  		<li>
+            <img style="padding-left:565px; height: 50px; width: 50px; padding-top: 5px;" src="Images/alazhar.png"></li>
+	</ul>
+
+	<div class="T" style="margin-left: 100px; margin-bottom: 200px; margin-top: 50px;">
+		<form method="get" action="">
+		<span style="display: inline-block;">
+			
+			<label for="devices">Experiences Category: </label>
+			<select style="margin-left: 2em; border-radius: 10px; width: 190px;padding: 4px;" id="devices">
+				<option > </option>
+				<option > python course</option>
+			</select><br><br><br>
+
+			<label for="Experience">Experiences Title:</label>
+  		<input style="margin-left: 4.3em; border-radius: 10px; width: 185px;padding: 3px;" type="text" id="Experience"><br><br><br>
+  		<label for="Sdate">Start month:</label>
+			<input style="margin-left: 7em; border-radius: 10px; width: 180px;padding: 3px;" type="month" id="Sdate"/>
+			<br><br><br>
+
+			<label for="Edate">End month:</label>
+			<input  style="margin-left: 7.4em; border-radius: 10px; width: 180px;padding: 3px;" type="month" id="Edate" /><br><br><br>
+
+			<label for="Inst">Instituation:</label>
+  		<input style="margin-left: 7em; border-radius: 10px; width: 185px;padding: 3px;" type="text" id="Inst"><br><br><br>
+  			
+  				<label for="Des" style="vertical-align: top;">Description: </label>
+  				<textarea style="margin-left: 6.8em; resize: none; border-radius: 9px; ;padding: 3px;" id="Des" rows="7" cols="60"></textarea><br><br><br>
+  			 <input type="submit" value="save" id="save">
+  			 <input type="reset" value="Reset" id="reset">
+		</span>
+		 <span style="padding-left: 170px;"> <img src="Images/study.jpg" width="450px" height="505px"></span>
+	</form>
+	</div>
+</body>
+</html>
