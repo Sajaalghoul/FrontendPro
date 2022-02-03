@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="refresh" content="50">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="description" content="lab in alazhar">
+	<meta name="author" content="saja">
+	<title>add course</title>
+	<link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+	<ul>
+	 	<li><a  href="home.html">Personal Information</a></li>
+  		<li><a  href="CourseInfo.html">Course Information</a></li>
+  		<li><a  href="ExperienceInfo.html">Experiences Information</a></li>
+  		<li><a class="active" href="addcourse.html">Add Course</a></li>
+  		<li><a href="addexperience.html">Add Experience</a></li>
+  		<li>
+            <img style="padding-left:565px; height: 50px; width: 50px; padding-top: 5px;" src="Images/alazhar.png" class="img-fluid"></li>
+	</ul>
+	<div class="T" style="margin-left: 100px; margin-bottom: 200px; margin-top: 50px;">
+		<form method="get">
+			<span style="display: inline-block;" >
+  			<label for="name">Course Name:</label>
+  			<input style="margin-left: 6.1em; border-radius: 10px; width: 190px; padding: 4px; " type="text" id="name" required="required"><br><br><br>
+
+  			<label for="no">Number Of Hours: </label>
+  			<input style="margin-left: 3.9em; border-radius: 10px; width: 185px; padding: 4px;" type="number" id="no" size="2" required="required"></input><br><br><br>
+
+  			<label for="startdate">Start date:</label>
+				<input style="margin-left: 8em; border-radius: 10px; width: 190px;padding: 4px;" type="date" id="startdate" required="required"/><br><br><br>
+
+				<label for="enddate">End date:</label>
+				<input  style="margin-left: 8.4em; border-radius: 10px; width: 190px;padding: 4px;" type="date" id="enddate" required="required"/><br><br><br>
+
+			<label for="inst">Instituation:</label>
+  			<input style="margin-left: 7em; border-radius: 10px; width: 190px;padding: 4px;" type="text" id="inst" required="required"><br><br><br>
+
+  			<label >Attachment:</label>
+				<input style="margin-left: 7em;" type="radio"  id="file" value="File" name="group" checked="checked">
+				<label for="file">File</label>
+				<input style="margin-left: 4em; " type="radio" id="url" name="group" value="URL" required="required">
+	 			<label for="url">URL</label><br>
+				<br><br>
+
+				<label for="URL">URL:</label>
+  			<input style="margin-left: 10.8em; border-radius: 10px; width: 190px;padding: 4px;" type="url" id="URL" required="required"><br><br><br>
+
+  			<label for="FILE">File</label>
+			<input style="margin-left: 11.6em; border-radius: 10.7px; width: 190px;padding: 4px;" type="file" id="FILE" required="required" /><br><br>
+
+  			<label style="vertical-align: top;" for="message">Notes:</label>
+  			<textarea style="margin-left: 10em;; border-radius: 8px; width:200px; height:120px ; resize: none;" id="message" rows="7" required="required"></textarea><br>
+ <br><br>
+  				<input type="submit" value="save" id="save">
+  			 <input type="reset" value="Reset" id="reset">
+ 			 
+  		</span>
+  		<span style="padding-left: 170px;"> <img src="Images/class.jpg" width="550px" height="700px"></span>
+		</form>
+	</div>
+</body>
+</html>
